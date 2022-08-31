@@ -44,3 +44,8 @@
 <ul> 
 <li> Future idea. - To be specified and implemented in the future. (Tut: https://www.youtube.com/watch?v=Ff9zSoV5Xgo) </li>
 </ul>
+
+## Easy GUI version
+<ul> 
+<li> Future idea. - To be specified and implemented in the future. (TKinter) </li>
+</ul>
