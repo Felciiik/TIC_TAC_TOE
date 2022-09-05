@@ -10,6 +10,7 @@ class TicTacToe:
 
 #Block bellow is not my code
 ###############################################################
+
     def create_board(self):
         for row in range(3):
             row_temp = []
@@ -17,9 +18,20 @@ class TicTacToe:
                 row_temp.append(self.empty_sign)
             self.board.append(row_temp)
 
-    def get_random_first_player(self):
-        return random.randint(0,1)
 ################################################################
+
+    def first_player_choose_sign(self):
+        while True:
+            player = input(textwrap.dedent("""
+                                    --- \n
+                                    First player enter your sign ('X' or 'O'). \n
+                                    --- \n
+                                          """))
+            if player == "X" or "O":
+                break
+            else:
+                continue
+        return player
 
     def set_spot_value(self, row, column, player):
             self.board[row][column] = player
@@ -95,7 +107,7 @@ class TicTacToe:
     def start_game(self):
         self.create_board()
 
-        player = 'X' if self.get_random_first_player() == 1 else 'O'
+        player = self.first_player_choose_sign()
 
         while True:
             print(f'Turn of player {player}: \n')
