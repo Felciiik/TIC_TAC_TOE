@@ -1,6 +1,6 @@
 # TIC TAC TOE game 
 
-## Basic version
+## Basic version  :heavy_check_mark: 
 
 <ul>
 <li> Create a board using a 2-dimensional array and initialize each element as empty.</li>
@@ -35,7 +35,7 @@
     </ul> 
 </ul>
 
-## AI version
+## AI version :hourglass_flowing_sand:
 <ul> 
 <li> Future idea. - To be specified and implemented in the future.</li>
 </ul>
@@ -44,10 +44,10 @@
 ### Features:
 <ul> 
 <li>The player can choose size of game board. Minimal size is 3 and maximal is 10. (e.g. board 4x4) :heavy_check_mark: </li>
-<li>The player can choose how many symbols need to be connected to win the game. </li>
+<li>The player can choose how many symbols need to be connected to win the game.  :hourglass_flowing_sand: </li>
 </ul>
 
-## Easy GUI version
+## Easy GUI version :hourglass_flowing_sand:
 <ul> 
 <li> Future idea. - To be specified and implemented in the future. (TKinter) </li>
 </ul>
