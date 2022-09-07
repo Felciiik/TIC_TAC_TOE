@@ -40,14 +40,15 @@
 <li> Future idea. - To be specified and implemented in the future.</li>
 </ul>
 
-## Generalized version
+## Generalized version :hourglass_flowing_sand:
 ### Features:
 <ul> 
 <li>The player can choose size of game board. Minimal size is 3 and maximal is 10. (e.g. board 4x4) :heavy_check_mark: </li>
 <li>The player can choose how many symbols need to be connected to win the game.  :hourglass_flowing_sand: </li>
 </ul>
 
-## Easy GUI version :hourglass_flowing_sand:
+## GUI version :hourglass_flowing_sand:
 <ul> 
-<li> Future idea. - To be specified and implemented in the future. (TKinter) </li>
+<li> Simple GUI using tkinter. :hourglass_flowing_sand: </li>
+<li> Higher level GUI using tkinter. :hourglass_flowing_sand: </li>
 </ul>
